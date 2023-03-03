@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Web</title>
+
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <span id="test-text"></span>
+    <div class="container">
+        <div class="title-container" style="text-align: center;">
+            <h1>Calculadora!</h1>
+            <h6>By @rcomunica / Julian R.</h6>
+        </div>
+
+        <div class="body-calc">
+            <div class="answer-container">           
+                <span id="xNumber-text"></span><br>
+                <span id="yNumber-text"></span><br>
+                <span id="resultNumber"></span>
+                
+            </div>
+            <div class="buttons-container">
+                <table>
+                    <tr>
+                        <td><button id="1">1</button></td>
+                        <td><button id="2">2</button></td>
+                        <td><button id="3">3</button></td>
+                        <td><button id="c">C</button></td>
+                    </tr>
+                    <tr>
+                        <td><button id="4">4</button></td>
+                        <td><button id="5">5</button></td>
+                        <td><button id="6">6</button></td>
+                        <td><button id="+">+</button></td>
+                    </tr>
+                <tr>
+                <td><button id="7">7</button></td>
+                <td><button id="8">8</button></td>
+                <td><button id="9">9</button></td>
+                <td><button id="-">-</button></td>
+                </tr>
+                <tr>
+                    <td><button class="zero" id="0">0</button></td>
+                        <div class="operation-container">
+                            <td><button id="x">x</button></td>
+                            <td><button id="/">÷</button></td>
+                            <td><button id="=">=</button></td>
+                        </div>
+                </tr>
+
+            </table>
+            </div>
+            <span class="credits">@rcomunica / Julian R.</span>
+        </div>
+        
+    </div>
+<script src="app.js"></script>
+    
+</body>
+</html>
